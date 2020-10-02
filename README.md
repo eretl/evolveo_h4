@@ -8,8 +8,8 @@ Stop kodi
 `systemctl stop kodi`  
 `systemctl stop eventlircd`  
 
-Save `evolveo_h8.txt` to `/storage/.config/rc_keymaps/`  
-Add at the end of `/storage/.config/rc_maps.cfg` contents of `rc_maps.cfg`   
+Save [evolveo_h8.txt](evolveo_h8.txt) to `/storage/.config/rc_keymaps/`  
+Add at the end of `/storage/.config/rc_maps.cfg` contents of [rc_maps.cfg](rc_maps.cfg)   
 
 Load new configuration `ir-keytable -a /storage/.config/rc_maps.cfg -s rc0`  
 
@@ -27,7 +27,7 @@ Stop kodi
 `ir-keytable -t`
 Start pressing buttons on remote, HEX codes will be displayed.
 
-Create your txt file with key mapings. All keycodes are in `keycodes.txt`.  
+Create your txt file with key mapings. All keycodes are in [keycodes.txt](keycodes.txt).  
 
 
 # Source
