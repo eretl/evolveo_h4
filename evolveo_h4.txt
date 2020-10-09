@@ -1,4 +1,4 @@
-# table evolveo_h8, type: NEC        
+# table evolveo_h4, type: NEC        
 0x18 KEY_POWER
 0x46 KEY_UP
 0x16 KEY_DOWN
