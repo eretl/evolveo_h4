@@ -1,14 +1,14 @@
-# evolveo_h8
-Remote control mappings for Evolveo H8 CoreELEC/LibreELEC
+# evolveo_h4
+Remote control mappings for Evolveo H4 CoreELEC/LibreELEC
 
 # How to install
-SSH in to the Evolveo H8
+SSH in to the Evolveo H4
 
 Stop kodi  
 `systemctl stop kodi`  
 `systemctl stop eventlircd`  
 
-Save [evolveo_h8.txt](evolveo_h8.txt) to `/storage/.config/rc_keymaps/`  
+Save [evolveo_h4.txt](evolveo_h4.txt) to `/storage/.config/rc_keymaps/`  
 Add at the end of `/storage/.config/rc_maps.cfg` contents of [rc_maps.cfg](rc_maps.cfg)   
 
 Load new configuration `ir-keytable -a /storage/.config/rc_maps.cfg -s rc0`  
@@ -18,7 +18,7 @@ Start kodi
 `systemctl start kodi`  
 
 # How to generate remote codes
-SSH in to the Evolveo H8
+SSH in to the Evolveo H4
 
 Stop kodi  
 `systemctl stop kodi`  
